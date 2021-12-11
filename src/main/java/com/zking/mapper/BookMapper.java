@@ -19,5 +19,10 @@ public interface BookMapper {
 
     int updateByPrimaryKey(Book record);
 
+    /**
+     *
+     * @param book
+     * @return
+     */
     List<Book> getAll(Book book);
 }
